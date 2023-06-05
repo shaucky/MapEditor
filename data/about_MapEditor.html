@@ -1,0 +1,104 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+	* {
+		font-size: 10pt;
+		font-family: "SimSun", "Heiti SC Light";
+	}
+	body {
+		margin: 0;
+		padding: 0;
+	}
+	h1 {
+		font-size: 24pt;
+		margin-top: 10px;
+		margin-bottom: 15px;
+		font-family: "Microsoft YaHei", "Heiti SC Medium";
+	}
+	h2 {
+        color: #ffffff;
+        background-color: #700C0D;
+        border-radius: 5px;
+		font-size: 18pt;
+		margin-top: 5px;
+		margin-bottom: 5px;
+        padding: 4px;
+		font-family: "Microsoft YaHei", "Heiti SC Medium";
+	}
+	h3 {
+        border-bottom: 2px solid #700C0D;
+		font-size: 12pt;
+        margin: 0;
+		margin-left: 4px;
+        padding-left: 3px;
+		font-family: "Microsoft YaHei", "Heiti SC Medium";
+	}
+	div#header {
+		position: sticky;
+		top: 0;
+		color: #ffffff;
+        background-image: linear-gradient(#700C0D, #440808);
+		margin: 0;
+		padding-top: 5px;
+		padding-right: 10px;
+		padding-bottom: 10px;
+		padding-left: 15px;
+	}
+	span.basicInformation {
+		margin-left: 8px;
+		margin-bottom: 5px;
+	}
+	div#content {
+		margin: 0;
+		padding: 10px;
+		padding-top: 5px;
+	}
+	div#footer {
+		padding: 10px;
+	}
+	div.copyright {
+		display: block;
+		font-style: italic;
+		font-size: 8pt;
+		text-align: center;
+	}
+</style>
+<title>关于MapEditor</title>
+</head>
+
+<body>
+	<div id="header">
+		<h1>关于MapEditor</h1>
+		<span class="basicInformation"> release version: 1.0</span>
+		<span class="basicInformation">developed by: 晓痴</span>
+	</div>
+	<div id="content">
+		<h2>关于MapEditor</h2>
+		<span>MapEditor是一款用于沙盒探索类游戏地图设计的软件。</span>
+		<h2>1.0版本摘要</h2>
+		<h3>1.支持创建MED文档</h3>
+		<span>MapEditor文档（MapEditor Document）简写为MED文档，扩展名为*.med。这是MapEditor软件中使用的一种二进制文件格式。MED文档中记录了游戏地图相关的信息和内容，例如地图内各对象的位置、地图内使用的场景音乐、地图内使用的图像素材等。MED文档除了可以被在MapEditor内编辑和预览以外，还可以通过MapEditor提供的各种格式的读取工具在不同平台或环境下使用。</span>
+		<h3>2.属性面板</h3>
+		<span>MED文档地图的对象具有多种属性，包括但不限于坐标属性x和y、名称属性name、事件属性events等。通过属性面板，可以查看或输入对象的各种属性。</span>
+		<h3>3.工具面板</h3>
+		<span>MapEditor内的许多编辑工具集成在工具面板中，例如拖动、裁剪等工具。通过这些工具，可以方便地在MapEditor内调整或处理地图的对象。</span>
+		<h3>4.资源面板</h3>
+		<span>MED文档中可以储存地图内需要用到的资源，包括场景音乐、图像素材等。资源面板可以显示这些资源并供选取编辑。</span>
+		<h3>5.视口面板</h3>
+		<span>视口面板可以直观的显示MED文档地图中对象的布局分布、MED文档内的资源等，通过与工具面板中提供的工具配合，可以可视化地对地图、资源等进行编辑。</span>
+		<h3>6.图层面板</h3>
+		<span>MED文档地图中的图层分为移动层、对象层和地面层。图层面板用于选择当前视口面板中显示的图层。</span>
+		<h3>7.导出为PNG图像</h3>
+		<span>可移植网络图形（Portable Network Graphics）简写为PNG图像，扩展名为*.png。这是一种常用的图像格式。MapEditor可以将MED文档地图导出为PNG图像，导出时只包含对象层和地面层两个图层的内容，可以设置导出图像的尺寸比例，导出的图像可以看作是MED文档地图的全景图。</span>
+		<h3>8.在MapEditor中预览MED文档地图</h3>
+		<span>在MapEditor中可以直接预览打开的MED文档存储的地图。预览时MapEditor会提供一套基本完备的UI组件供交互（包括轮盘、按钮等）。</span>
+		<h3>9.在其他平台或环境下使用MED文档的地图</h3>
+		<span>MapEditor内提供了一些其他平台或环境专属的格式的组件，这些组件提供了一些接口，以便于在其他平台或环境下使用MED文档地图。</span>
+	</div>
+	<div id="footer">
+		<div class="copyright">(c)2022-2023 copyright xiaoChi All rights reserved. </div>
+	</div>
+</body>
+</html>

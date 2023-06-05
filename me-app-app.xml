@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<!-- 
+	Usage:
+
+	To localize the description, use the following format for the description element.
+	<description>
+	<text xml:lang="en">English App description goes here</text>
+	<text xml:lang="fr">French App description goes here</text>
+	<text xml:lang="ja">Japanese App description goes here</text>
+	</description>
+
+	To localize the name, use the following format for the name element.
+	<name>
+	<text xml:lang="en">English App name goes here</text>
+	<text xml:lang="fr">French App name goes here</text>
+	<text xml:lang="ja">Japanese App name goes here</text>
+	</name>
+-->
+<application xmlns="http://ns.adobe.com/air/application/50.2">
+    <id>xiaoChi.MapEditor</id>
+    <versionNumber>0.2</versionNumber>
+    <filename>MapEditor</filename>
+    <description/>
+    <name>MapEditor</name>
+    <copyright/>
+	<windows>
+		  <UseWebView2>true</UseWebView2>
+	</windows>
+    <initialWindow>
+        <content>me-app.swf</content>
+        <systemChrome>none</systemChrome>
+        <transparent>true</transparent>
+        <visible>false</visible>
+        <fullScreen>false</fullScreen>
+        <aspectRatio>portrait</aspectRatio>
+        <renderMode>direct</renderMode>
+        <maximizable>true</maximizable>
+        <minimizable>true</minimizable>
+        <resizable>true</resizable>
+        <requestedDisplayResolution>standard</requestedDisplayResolution>
+        <minSize>350 40</minSize>
+    </initialWindow>
+    <icon>
+        <image16x16>images/appIcons/MapEditor_Icon_WIN16.png</image16x16>
+        <image32x32>images/appIcons/MapEditor_Icon_WIN32.png</image32x32>
+        <image48x48>images/appIcons/MapEditor_Icon_WIN48.png</image48x48>
+        <image128x128>images/appIcons/MapEditor_Icon_WIN128.png</image128x128>
+        <image256x256>images/appIcons/MapEditor_Icon_WIN256.png</image256x256>
+        <image512x512>images/appIcons/MapEditor_Icon_WIN512.png</image512x512>
+    </icon>
+    <customUpdateUI>false</customUpdateUI>
+    <allowBrowserInvocation>false</allowBrowserInvocation>
+  <fileTypes>
+    <fileType>
+      <name>MapEditor.Document</name>
+      <extension>med</extension>
+      <description>MapEditor Document</description>
+      <contentType>application/x-med</contentType>
+      <icon>
+        <image16x16>images/appIcons/medocument_Icon_16.png</image16x16>
+        <image32x32>images/appIcons/medocument_Icon_32.png</image32x32>
+        <image48x48>images/appIcons/medocument_Icon_48.png</image48x48>
+        <image128x128>images/appIcons/medocument_Icon_128.png</image128x128>
+      </icon>
+    </fileType>
+  </fileTypes>
+</application>

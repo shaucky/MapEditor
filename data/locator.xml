@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<locator>
+    <frames>
+        <color>color.swf</color>
+        <properties>ppt.swf</properties>
+        <tools>tools.swf</tools>
+        <library>lib.swf</library>
+        <view>view.swf</view>
+        <layer>layer.swf</layer>
+    </frames>
+</locator>
